@@ -41,11 +41,17 @@ coronaserver.ranks = {
 		tag = "[PROBE-SUPPORTER:IN]",
 		privs = {team = true, student = false,},
 	},
+	{
+		name = "helper",
+		color = "#EEDE00",
+		tag = "[HELFER:IN]",
+		privs = {fly = true, basic_privs = true, kick = true, trusted = true},
+	},
    	{
 		name = "teacher",
 		color = "#16AE00",
 		tag = "[LEHRER:IN / PÄDAGOG:IN]",
-		privs = {team = false, fly = true, teacher = true, creative = true, areas = true,  basic_privs = true, teleport = true, bring = true, settime = true, kick = true, signslib_edit = true, poi = true}
+		privs = {team = false, teacher = true, creative = true, areas = true, teleport = true, bring = true, settime = true, signslib_edit = true, poi = true},
 	},
 	{
 		name = "supporter",
@@ -57,7 +63,7 @@ coronaserver.ranks = {
 		name = "moderator",
 		color = "#001FFF",
 		tag = "[MODERATOR:IN]",
-		privs = {server = true, ban = true, worldedit = true, vanish = true, ["rename"] = true, trusted = true, noclip = true, invhack = true, protection_bypass = true, vanish = true},
+		privs = {server = true, ban = true, worldedit = true, vanish = true, ["rename"] = true, noclip = true, invhack = true, protection_bypass = true, vanish = true},
 	},
 	{
 		name = "developer",
