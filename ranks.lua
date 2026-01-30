@@ -27,7 +27,7 @@ coronaserver.ranks = {
 		name = "vip",
 		color = "#00E5FF",
 		tag = "[VIP]",
-		privs = {},
+		privs = {trusted = true, include = true},
 	},
 	{
 		name = "feuerwehr",
@@ -39,13 +39,13 @@ coronaserver.ranks = {
 		name = "psupporter",
 		color = "#FF9C48",
 		tag = "[PROBE-SUPPORTER:IN]",
-		privs = {team = true, student = false,},
+		privs = {team = true, student = false},
 	},
 	{
 		name = "helper",
 		color = "#EEDE00",
 		tag = "[HELFER:IN]",
-		privs = {fly = true, basic_privs = true, kick = true, trusted = true},
+		privs = {fly = true, basic_privs = true, kick = true},
 	},
    	{
 		name = "teacher",
